@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/c44414w3s1ow8eb5?svg=true)](https://ci.appveyor.com/project/Dirkster99/watermarkcontrolslib)
+[![Release](https://img.shields.io/github/release/Dirkster99/watermarkcontrolslib.svg)](https://github.com/Dirkster99/watermarkcontrolslib/releases/latest)
+
 # WatermarkControlsLib
 Provides MVVM/WPF conform textbox and combobox control implementations for dark and light modern UIs
 
