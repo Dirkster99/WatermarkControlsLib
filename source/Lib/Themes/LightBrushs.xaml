@@ -23,7 +23,7 @@
 
     <SolidColorBrush x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
                      ResourceId=ControlNormalBackgroundKey}"
-                     Color="{DynamicResource {x:Static SystemColors.WindowBrush}}"
+                     Color="White"
                      options:Freeze="true" />
 
     <SolidColorBrush x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
@@ -31,14 +31,10 @@
                      Color="#FF000000"
                      options:Freeze="true" />
 
-    <LinearGradientBrush x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
-                                ResourceId=ControlNormalBorderKey}"
-                         EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0"
-                         options:Freeze="true">
-        <GradientStop Color="#ABADB3" Offset="0.05" />
-        <GradientStop Color="#E2E3EA" Offset="0.07" />
-        <GradientStop Color="#E3E9EF" Offset="1" />
-    </LinearGradientBrush>
+    <SolidColorBrush x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
+                     ResourceId=ControlNormalBorderKey}"
+                     Color="#cccedb"
+                     options:Freeze="true"/>
 
     <!-- Mouseover Keys -->
     <SolidColorBrush x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
