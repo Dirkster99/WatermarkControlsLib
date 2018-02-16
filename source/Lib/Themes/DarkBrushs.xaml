@@ -23,7 +23,7 @@
 
     <SolidColorBrush x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
                      ResourceId=ControlNormalBackgroundKey}"
-                     Color="#000000"
+                     Color="#252526"
                      options:Freeze="true" />
 
     <SolidColorBrush x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
