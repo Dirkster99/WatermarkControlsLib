@@ -91,6 +91,7 @@
                                     Watermark="Enter Text"
                                     KeepWatermarkOnGotFocus="{Binding IsChecked, ElementName=_keepWatermarkOnGotFocus}"
                                    IsEnabled="{Binding IsChecked, ElementName=_isEnabledCheckBox}"
+                                                     AutoMoveFocus="True"
                                 >
                                 <TxtBox:WatermarkTextBox.WatermarkTemplate>
                                     <DataTemplate>
