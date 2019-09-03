@@ -2,6 +2,8 @@
 [![Release](https://img.shields.io/github/release/Dirkster99/watermarkcontrolslib.svg)](https://github.com/Dirkster99/watermarkcontrolslib/releases/latest)
 [![NuGet](https://img.shields.io/nuget/dt/Dirkster.watermarkcontrolslib.svg)](http://nuget.org/packages/Dirkster.watermarkcontrolslib)
 
+![Net4](https://badgen.net/badge/Framework/.Net&nbsp;4/blue) ![NetCore3](https://badgen.net/badge/Framework/NetCore&nbsp;3/blue)
+
 # WatermarkControlsLib
 Provides MVVM/WPF conform textbox and combobox control implementations for dark and light modern UIs
 
