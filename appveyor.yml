@@ -19,7 +19,7 @@ build:
 
 artifacts:
 
-- path: source\WatermarkControlsDemo\bin\Release
+- path: source\Demo\bin\Release
   name: WatermarkControlsDemo
 
 - path: source\Lib\bin\Release
