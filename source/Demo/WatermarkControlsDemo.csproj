@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -147,11 +147,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lib\WatermarkControlsLib.csproj">
-      <Project>{1df7e22d-622d-437a-9100-2d586ebf4019}</Project>
+      <Project>{a9354a6b-50be-44c0-9039-f46329108e1f}</Project>
       <Name>WatermarkControlsLib</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Resources\PencilTool16.png" />
   </ItemGroup>

@@ -1,0 +1,26 @@
+version: 1.3.{build}
+
+configuration: Release
+
+platform: Any CPU
+
+image: Visual Studio 2019 Preview
+
+install:
+  - cmd: choco install dotnetcore-sdk --pre
+
+before_build:
+
+- cmd: nuget restore source\WatermarkControlsDemo.sln
+
+build:
+
+  verbosity: minimal
+
+artifacts:
+
+- path: source\WatermarkControlsDemo\bin\Release
+  name: WatermarkControlsDemo
+
+- path: source\Lib\bin\Release
+  name: WatermarkControlsLib
